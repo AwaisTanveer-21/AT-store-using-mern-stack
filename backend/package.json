@@ -4,12 +4,13 @@
   "description": "backend",
   "main": "server.js",
   "scripts": {
-  "start" : "node index.js",
-  "dev" : "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "awais tanveer",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.3",
     "cloudinary": "^2.11.0",
     "cors": "^2.8.6",
